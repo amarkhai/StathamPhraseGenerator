@@ -1,0 +1,19 @@
+{
+    "name": "andrew_markhai/statham_phrase_generator",
+    "description": "Generator of true phrases from Great philosopher Jason Statham",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AndrewMarkhai\\StathamPhraseGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrew Markhay",
+            "email": "buk2018irinam@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
