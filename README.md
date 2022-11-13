@@ -4,6 +4,7 @@
 
 ```php
 
-$phrase = \AndrewMarkhai\StathamPhraseGenerator\Generator::createPhrase();
+$generator = new \AndrewMarkhai\StathamPhraseGenerator\Generator();
+$phrase = $generator->createPhrase();
 
 ```

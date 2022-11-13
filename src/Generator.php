@@ -13,7 +13,7 @@ class Generator
         'Запомни, одна ошибка - и ты ошибся',
     ];
 
-    public static function createPhrase(): string
+    public function createPhrase(): string
     {
         return self::PHRASES[array_rand(self::PHRASES)];
     }
